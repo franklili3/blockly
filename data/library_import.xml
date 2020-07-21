@@ -9,7 +9,7 @@
         <field name="ALIGN">RIGHT</field>
         <statement name="FIELDS">
           <block type="field_input" id=";tZD#hO1,QQ}LMUcN6Ug">
-            <field name="TEXT">math</field>
+            <field name="TEXT">导入库</field>
             <field name="FIELDNAME">library_NAME</field>
           </block>
         </statement>
