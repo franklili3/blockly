@@ -1,0 +1,14 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <shadow type="turtle_basic" id="QGY^3.[vhM^3oY?Ng`XA" x="10" y="10">
+    <field name="TURTLE" pattern="Stripes" hat="Stovepipe">Crush</field>
+    <comment pinned="false" h="80" w="160">Demonstrates a turtle field with no validator.</comment>
+  </shadow>
+  <shadow type="turtle_nullifier" id="[T!]a7(3zQGe.!=B(5*=" x="10" y="120">
+    <field name="TURTLE" pattern="Dots" hat="Stovepipe">Yertle</field>
+    <comment pinned="false" h="80" w="160">Validates combinations of names and hats to null (invalid) if they could be considered infringe-y. This turns the turtle field red. Infringe-y combinations are: (Leonardo, Mask), (Yertle, Crown), and (Franklin, Propeller).</comment>
+  </shadow>
+  <shadow type="turtle_changer" id="QD`$+l7AZ/u8,r+@.Zc}" x="10" y="230">
+    <field name="TURTLE" pattern="Stripes" hat="Propeller">Franklin</field>
+    <comment pinned="false" h="80" w="160">Validates the input so that certain names always have specific hats. The name-hat combinations are: (Leonardo, Mask), (Yertle, Crown), (Franklin, Propeller).</comment>
+  </shadow>
+</xml>
