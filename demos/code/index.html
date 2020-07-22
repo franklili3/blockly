@@ -14,6 +14,16 @@
   <script src="../../php_compressed.js"></script>
   <script src="../../lua_compressed.js"></script>
   <script src="../../dart_compressed.js"></script>
+  <script src="../../generators/python/colour.js"></script>
+  <script src="../../generators/python/lists.js"></script>
+  <script src="../../generators/python/logic.js"></script>
+  <script src="../../generators/python/loops.js"></script>
+  <script src="../../generators/python/math.js"></script>
+  <script src="../../generators/python/procedures.js"></script>
+  <script src="../../generators/python/text.js"></script>
+  <script src="../../generators/python/variables.js"></script>
+  <script src="../../generators/python/variables_dynamic.js"></script>
+  <script src="../../data/python_import.js"></script>
   <script src="code.js"></script>
 </head>
 <body>
@@ -385,7 +395,46 @@
       </block>
     </category>
     <sep></sep>
-    <category name="%{BKY_CATVARIABLES}" colour="%{BKY_VARIABLES_HUE}" custom="VARIABLE"></category>
+    <category name="%{BKY_CATVARIABLES}" colour="%{BKY_VARIABLES_HUE}" custom="VARIABLE">
+      <block type="factory_base" id="QIC_DI[G^-J#hY])-DwX" deletable="false" movable="false" x="10" y="10">
+        <mutation connections="NONE"></mutation>
+        <field name="NAME">import</field>
+        <field name="INLINE">INT</field>
+        <field name="CONNECTIONS">NONE</field>
+        <statement name="INPUTS">
+          <block type="input_value" id="pDk.jdS?XVY2WB*d#!h#">
+            <field name="INPUTNAME">library</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_input" id=";tZD#hO1,QQ}LMUcN6Ug">
+                <field name="TEXT">导入库</field>
+                <field name="FIELDNAME">library_NAME</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="+inhENgq7C+@Wv}|_k9W"></shadow>
+              <block type="type_string" id="SpEy?62sYKFRWXqP1sf0"></block>
+            </value>
+          </block>
+        </statement>
+        <value name="TOOLTIP">
+          <block type="text" id="f#XyN7x=+2C~D$#B,,jy" deletable="false" movable="false">
+            <field name="TEXT">导入库</field>
+          </block>
+        </value>
+        <value name="HELPURL">
+          <block type="text" id="x1%KDoc{9Lj^YZ%3_bJB" deletable="false" movable="false">
+            <field name="TEXT"></field>
+          </block>
+        </value>
+        <value name="COLOUR">
+          <block type="colour_hue" id="9NGYmoI$$eVy}.,$wb:Q">
+            <mutation colour="#5b67a5"></mutation>
+            <field name="HUE">230</field>
+          </block>
+        </value>
+    </block>
+    </category>
     <category name="%{BKY_CATFUNCTIONS}" colour="%{BKY_PROCEDURES_HUE}" custom="PROCEDURE"></category>
   </xml>
 

@@ -1,4 +1,5 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="QIC_DI[G^-J#hY])-DwX" deletable="false" movable="false" x="10" y="10">
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="factory_base" id="QIC_DI[G^-J#hY])-DwX" deletable="false" movable="false" x="10" y="10">
     <mutation connections="NONE"></mutation>
     <field name="NAME">import</field>
     <field name="INLINE">INT</field>
