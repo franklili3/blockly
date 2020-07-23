@@ -1,0 +1,16 @@
+[{
+  "type": "import",
+  "message0": "导入库 %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "library",
+      "check": "String",
+      "align": "RIGHT"
+    }
+  ],
+  "inputsInline": true,
+  "colour": 230,
+  "tooltip": "导入库",
+  "helpUrl": ""
+}]
