@@ -23,7 +23,8 @@
   <script src="../../generators/python/text.js"></script>
   <script src="../../generators/python/variables.js"></script>
   <script src="../../generators/python/variables_dynamic.js"></script>
-  <script src="../../data/python_import.js"></script>
+  <script src="../../myapp/python_import.js"></script>
+  <script src="../../myapp/block_import.js"></script>
   <script src="code.js"></script>
 </head>
 <body>
@@ -436,7 +437,10 @@
     </block>
     </category>
     <category name="%{BKY_CATFUNCTIONS}" colour="%{BKY_PROCEDURES_HUE}" custom="PROCEDURE"></category>
-  </xml>
+    <category name="custom" colour="#5b67a5">
+      <block type="import"></block>
+    </category>
+</xml>
 
 </body>
 </html>

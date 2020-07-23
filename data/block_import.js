@@ -1,21 +1,14 @@
 [{
   "type": "import",
-  "message0": "%1 %2",
+  "message0": "import %1",
   "args0": [
     {
-      "type": "field_input",
-      "name": "library_NAME",
-      "text": "math"
-    },
-    {
       "type": "input_value",
-      "name": "library",
-      "check": "String",
-      "align": "RIGHT"
+      "name": "library_NAME",
+      "check": "String"
     }
   ],
-  "inputsInline": true,
   "colour": 230,
-  "tooltip": "导入库",
+  "tooltip": "",
   "helpUrl": ""
 }]
