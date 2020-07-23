@@ -9,6 +9,8 @@
   <script src="blocks_compressed.js"></script>
   <script src="python_import.js"></script>
   <script src="block_import.js"></script>
+  <script src="code_crypetoexchange.js"></script>
+  <script src="define_crypetoexchange.js"></script>
   <script src="zh-hans.js"></script>
 
 </head>
@@ -388,6 +390,22 @@
       </category>
       <category name="custom" colour="#5b67a5">
         <block type="import"></block>
+        <block type="ext_Trade">
+          <value name="input_value">
+            <field name="field_dropdown">买入</field>
+          </value>
+        </block>
+        <block type="ext_CancelPendingOrders">
+          <field name="field_dropdown">买入</field>
+        </block>
+        <block type="ext_Cross">
+          <value name="input_value">
+          </value>
+          <value name="input_value">
+          </value>
+        </block>
+        <block type="ext_GetAccount">
+        </block>
       </category>
   </xml>
   <script>
